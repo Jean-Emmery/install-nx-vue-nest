@@ -29,6 +29,13 @@
   "projects": {
     "nest-app": {
       "tags": []
+    },
+    "vue-app": {
+      "tags": []
+    },
+    "vue-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["vue-app"]
     }
   }
 }
